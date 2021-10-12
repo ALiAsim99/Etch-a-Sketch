@@ -1,0 +1,31 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  text-align: center;
+}
+.right {
+  float: right;
+}
+.left {
+  display: inline-block;
+}
+.square {
+  background-color: white;
+  border: 2px solid black;
+}
+.color {
+  background-color: gray;
+  border: 2px solid black;
+}
+.grid-Container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 575px;
+  width: 575px;
+  margin-top: 25px;
+  margin-right: 45px;
+}
